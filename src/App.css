@@ -1,0 +1,78 @@
+body {
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: #fff;
+}
+  
+.container-fluid {
+  margin-top: 60px;
+  padding: 20px;
+  width: 100%;
+}
+  
+.card {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+  margin-bottom: 20px;
+  transition: all 0.5s ease;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+  
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2);
+}
+  
+.card-img-top {
+  width: 100%;
+  height: auto;
+}
+  
+.card-title {
+  font-size: 1.2em;
+  letter-spacing: 1px;
+}
+  
+.list-group-item {
+  background-color: transparent;
+  border: none;
+}
+
+input{
+  height: 48px;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.btn{
+  background-color: rgb(164, 164, 168);
+  height: 45px;
+  margin-bottom: 5px;
+}
+.btn:hover{
+  background-color: gray;
+  transform: scale(1.13);
+}
+.C{
+  background-color: rgb(30, 30, 30);
+  margin-top: 0px;
+  width: 100%;
+  margin-bottom: 0px;
+}
+footer{
+  background-color: rgb(30, 30, 30);
+  color: white;
+  text-align: center;
+  height: 300px;
+}
+.carousel{
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border: solid black 1px;
+  border-radius: 20px;
+  height: 500px;
+}
+.carousel img{
+  border-radius: 20px;
+  height: 500px;
+}
